@@ -269,7 +269,7 @@ class BotRunner:
 
     def print_status(self):
         print("=" * 80)
-        print(f"  Coinbase Trading Bot Status — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"  Bull Shark Status — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"  Mode: {'DRY-RUN' if self.dry_run else 'LIVE'}")
         print("=" * 80)
 

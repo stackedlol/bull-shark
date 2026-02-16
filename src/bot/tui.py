@@ -378,7 +378,7 @@ class LiveDashboard:
 
         # Header
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        header = Text(f"  Coinbase Trading Bot  |  {now}  |  Refresh: {self.interval}s", style="bold cyan")
+        header = Text(f"  Bull Shark  |  {now}  |  Refresh: {self.interval}s", style="bold cyan")
 
         # Charts side by side
         charts = [self._build_chart_panel(d) for d in all_data]

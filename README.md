@@ -1,4 +1,7 @@
-# Coinbase Spot Trading Bot
+# Bull Shark Trading Bot
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![Version](https://img.shields.io/badge/version-0.0.1-blue)
 
 Automated BTC-USD + ETH-USD spot trader. Sells into strength, re-buys lower, repeats.
 

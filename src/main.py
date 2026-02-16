@@ -83,7 +83,7 @@ def cmd_dry_run(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Coinbase Advanced Trade Spot Trading Bot")
+    parser = argparse.ArgumentParser(description="Bull Shark — Spot Trading Bot")
     parser.add_argument("--log-level", default=None, help="Override log level")
 
     sub = parser.add_subparsers(dest="command")
